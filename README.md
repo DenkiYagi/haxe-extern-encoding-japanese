@@ -3,7 +3,7 @@
 ## Install
 
 ```
-haxelib git pdfkit https://github.com/DenkiYagi/haxe-extern-encoding-japanese
+haxelib git encoding-japanese https://github.com/DenkiYagi/haxe-extern-encoding-japanese
 ```
 
 If you use standalone/CDN version, please add haxe compiler flag `-D encoding_japanese_standalone`.

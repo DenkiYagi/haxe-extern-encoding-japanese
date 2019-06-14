@@ -1,0 +1,6 @@
+-cp src
+js.encoding.japanese
+-js dist/dummy.js
+-debug
+--no-inline
+--no-output

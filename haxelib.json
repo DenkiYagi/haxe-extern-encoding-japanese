@@ -1,0 +1,12 @@
+{
+    "name": "encoding-japanese",
+    "url": "https://github.com/DenkiYagi/haxe-extern-encoding-japanese",
+    "description": "Haxe extern definitions for encoding.js",
+    "license": "Apache",
+    "version": "1.0.0",
+    "releasenote": "",
+    "classPath": "src",
+    "contributors": ["terurou"],
+    "tags": ["js", "nodejs", "extern", "text", "encoding", "japanese"],
+    "dependencies": {}
+}

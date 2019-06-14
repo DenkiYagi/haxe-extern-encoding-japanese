@@ -45,7 +45,7 @@ extern class Encoding {
     static function detect(data: String, ?encodings: EitherType<Charset, Array<Charset>>): EitherType<Charset, Bool>;
 
     /**
-     * URL(percent) encode.
+     * Encode a character code array to URL string like encodeURIComponent
      */
     @:overload(function(data: TypedArray): String {})
     #if nodejs
@@ -54,12 +54,12 @@ extern class Encoding {
     static function urlEncode(data: Array<Int>): String;
 
     /**
-     * URL(percent) decode.
+     * Decode a percent encoded string to character code array like decodeURIComponent
      */
     static function urlDecode(string: String): Array<Int>;
 
     /**
-     * Base64 encode.
+     * Encode a character code array to Base64 encoded string
      */
     @:overload(function(data: TypedArray): String {})
     #if nodejs
@@ -68,7 +68,7 @@ extern class Encoding {
     static function base64Encode(data: Array<Int>): String;
 
     /**
-     * Base64 decode.
+     * Decode a Base64 encoded string to character code array
      */
     static function base64Decode(string: String): Array<Int>;
 
